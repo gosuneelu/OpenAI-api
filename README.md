@@ -8,7 +8,7 @@ DatasourceLLMAgents is an API designed to interact with various datasources, inc
 
     ```bash
     pip install -r requirement.txt
-    python3.11 -m pip install langchain==0.0.145
+ 
     ```
 
 2. Start the server using Uvicorn:
@@ -26,7 +26,7 @@ To use the Database Agent:
 3. Set the `DB_URL` environment variable in the `.env` file following the format:
 
     ```
-    DB_URL="mysql+pymysql://root:admin123@localhost:3306/company"
+    DB_URL="mysql+pymysql://root:admin@localhost:3306/company"
     ```
 
 ### Testing DB Agent

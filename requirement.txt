@@ -4,6 +4,7 @@ fastapi-router-controller
 pymysql
 uvicorn
 openai
+langchain
 boto3
 unstructured 
 chromadb 
